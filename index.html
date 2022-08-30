@@ -10,41 +10,47 @@
   <body>
     <main class="dashboard">
       <header class="header">
-        <div class="search">
-          <img class="icon" src="icons/magnify.svg" alt="magnify icon" />
-          <input type="text" name="search" id="search" />
-        </div>
-        <div class="user">
-          <img
-            src="avatar/avatar2.png"
-            alt="avatar de un usuario x con barba y gorro"
-            class="user_img"
-          />
-          <p class="welcome_user">Hi there,</p>
-          <h1 class="user_name">Josue Cano(@Josue)</h1>
-        </div>
-        <div class="notify">
-          <a class="notify_link" href="#">
+        <div class="header_top">
+          <div class="search">
+            <img class="icon" src="icons/magnify.svg" alt="magnify icon" />
+            <input type="text" name="search" id="search" />
+          </div>
+          <div class="notify">
+            <a class="notify_link" href="#">
+              <img
+                class="icon"
+                src="icons/bell-ring-outline.svg"
+                alt=""
+                class="notify_icon"
+              />
+            </a>
             <img
-              class="icon"
-              src="icons/bell-ring-outline.svg"
-              alt=""
-              class="notify_icon"
+              src="avatar/avatar2.png"
+              alt="avatar de un usuario x con barba y gorro"
+              class="user_img user_img--small"
             />
-          </a>
-          <img
-            src="avatar/avatar2.png"
-            alt="avatar de un usuario x con barba y gorro"
-            class="user_img user_img--small"
-          />
-          <h2 class="notify_user">Josue Cano</h2>
+            <h2 class="notify_user">Josue Cano</h2>
+          </div>
         </div>
-        <div class="buttons_header">
-          <ul>
-            <li><a href="#" class="button">New</a></li>
-            <li><a href="#" class="button">Upload</a></li>
-            <li><a href="#" class="button">Share</a></li>
-          </ul>
+        <div class="header_bot">
+          <div class="user">
+            <img
+              src="avatar/avatar2.png"
+              alt="avatar de un usuario x con barba y gorro"
+              class="user_img"
+            />
+            <div class="user_text">
+              <p class="welcome_user">Hi there,</p>
+              <h1 class="user_name">Josue Cano (@Josue)</h1>
+            </div>
+          </div>
+          <div class="buttons_header">
+            <ul class="list_buttons">
+              <li><a href="#" class="button">New</a></li>
+              <li><a href="#" class="button">Upload</a></li>
+              <li><a href="#" class="button">Share</a></li>
+            </ul>
+          </div>
         </div>
       </header>
       <nav class="nav">
@@ -60,90 +66,68 @@
         <div class="nav_home">
           <ul class="list">
             <li class="list_items">
-              <a href="#" class="list_links">
-                <img
-                  class="icon icon--white"
-                  src="icons/home.svg"
-                  alt="home icon"
-                />
-                Home</a
-              >
+              <img class="icon" src="icons/home.svg" alt="home icon" />
+              <a href="#" class="list_links"> Home</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/card-account-details-outline.svg"
-                  alt="profile icon"
-                />Profile</a
-              >
+              <img
+                class="icon"
+                src="icons/card-account-details-outline.svg"
+                alt="profile icon"
+              />
+              <a href="#" class="list_links">Profile</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/message-reply.svg"
-                  alt="message icon"
-                />Messages</a
-              >
+              <img
+                class="icon"
+                src="icons/message-reply.svg"
+                alt="message icon"
+              />
+              <a href="#" class="list_links">Messages</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/clock-time-four.svg"
-                  alt="clock icon"
-                />History</a
-              >
+              <img
+                class="icon"
+                src="icons/clock-time-four.svg"
+                alt="clock icon"
+              />
+              <a href="#" class="list_links">History</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/note-multiple.svg"
-                  alt="tasks icon"
-                />Tasks</a
-              >
+              <img
+                class="icon"
+                src="icons/note-multiple.svg"
+                alt="tasks icon"
+              />
+              <a href="#" class="list_links">Tasks</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/account-group.svg"
-                  alt="people icon"
-                />Communities</a
-              >
+              <img
+                class="icon"
+                src="icons/account-group.svg"
+                alt="people icon"
+              />
+              <a href="#" class="list_links">Communities</a>
             </li>
           </ul>
         </div>
         <div class="nav_support">
           <ul class="list">
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/cog.svg"
-                  alt="cog icon"
-                />Settings</a
-              >
+              <img class="icon" src="icons/cog.svg" alt="cog icon" />
+              <a href="#" class="list_links">Settings</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/help-box.svg"
-                  alt="help box icon"
-                />Support</a
-              >
+              <img class="icon" src="icons/help-box.svg" alt="help box icon" />
+              <a href="#" class="list_links">Support</a>
             </li>
             <li class="list_items">
-              <a href="#" class="list_links"
-                ><img
-                  class="icon icon--white"
-                  src="icons/shield-check.svg"
-                  alt="shield check icon"
-                />Privacy</a
-              >
+              <img
+                class="icon"
+                src="icons/shield-check.svg"
+                alt="shield check icon"
+              />
+              <a href="#" class="list_links">Privacy</a>
             </li>
           </ul>
         </div>
