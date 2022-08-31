@@ -85,7 +85,6 @@ body{
   display: grid;
   grid-auto-flow:column;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto-fit;
   gap: 10px;
   grid-column: 2/-1;
   border-bottom: solid 2px #ccc;
@@ -171,13 +170,74 @@ body{
 
   padding: 12px 0;
 }
+/* projects */
 
 
 .cards{
-  grid-area: cards;
+  display:grid;
+  grid-template-columns: 3fr 1fr;
   grid-column: 2/-1;
   grid-row: 2 ;
 }
+
+.projects{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 22px 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 16px;
+  justify-content: space-around;
+  background-color: #eee;
+}
+
+.projects_title{
+  display: inline-block;
+  grid-column: 1/-1;
+}
+.projects_card{
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  padding: 14px;
+  background-color: white;
+  border-left: 5px solid aquamarine;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.658);
+}
+
+.card_text{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card_icons{
+  display:flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.annoucements{
+  display: grid;
+  grid-template-rows: 22px 1fr 22px 1fr;
+  gap: 15px;
+  padding: 16px;
+  background-color: #eee;
+}
+
+.announcements_card{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+
+
+
 
 
 .user_img{
